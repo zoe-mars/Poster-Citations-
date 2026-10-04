@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spatial pipeline poster references</title>
+<style>
+  :root {
+    --bg: #fbfbf9;
+    --text: #1d2329;
+    --muted: #55606b;
+    --accent: #0e7476;
+    --rule: #d9dcd8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15191d;
+      --text: #e6e8e6;
+      --muted: #a3acb4;
+      --accent: #5cc3c4;
+      --rule: #2e353b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 16px 64px;
+  }
+  h1 {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    margin: 0 0 8px;
+  }
+  .subtitle {
+    color: var(--muted);
+    margin: 0 0 4px;
+  }
+  .byline {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0 0 32px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 40px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  a { color: var(--accent); }
+  .poster {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--rule);
+  }
+  .poster-placeholder {
+    border: 2px dashed var(--rule);
+    color: var(--muted);
+    padding: 48px 16px;
+    text-align: center;
+  }
+  ol.refs {
+    padding-left: 1.6em;
+    margin: 0;
+  }
+  ol.refs li {
+    margin-bottom: 12px;
+    overflow-wrap: anywhere;
+  }
+  .note {
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Generalising a spatial transcriptomics analysis into a reusable R pipeline</h1>
+  <p class="subtitle">A reproducible preprocessing framework for SpatialExperiment objects, decoupling data preparation from spatial clustering to enable method integration and comparison across environments.</p>
+  <p class="byline">Zoe Marsland · RMIT University · Papenfuss Lab, WEHI · 2026</p>
+
+  <h2>Poster</h2>
+  <!-- Replace the placeholder with: <img class="poster" src="poster.png" alt="Poster"> -->
+  <div class="poster-placeholder">Poster image to be added</div>
+
+  <h2>References</h2>
+  <ol class="refs">
+    <li>Ståhl PL, Salmén F, Vickovic S, et al. Visualization and analysis of gene expression in tissue sections by spatial transcriptomics. <em>Science</em>. 2016;353(6294):78–82. <a href="https://doi.org/10.1126/science.aaf2403">doi:10.1126/science.aaf2403</a></li>
+
+    <li>Liu L, Chen A, Li Y, Mulder J, Heyn H, Xu X. Spatiotemporal omics for biology and medicine. <em>Cell</em>. 2024;187(17):4488–4519.</li>
+
+    <li>Zhao Q, Shen S, Shim WJ, Palpant NJ. The changing landscape of gene expression analysis. <em>Briefings in Bioinformatics</em>. 2026;27(2):bbag185.</li>
+
+    <li>Crowell HL, Dong Y, Billato I, et al. Orchestrating spatial transcriptomics analysis with Bioconductor. <em>bioRxiv</em>. 2025. <a href="https://doi.org/10.1101/2025.11.20.688607">doi:10.1101/2025.11.20.688607</a></li>
+
+    <li>Germain PL, Sonrel A, Robinson MD. pipeComp, a general framework for the evaluation of computational pipelines, reveals performant single cell RNA-seq preprocessing tools. <em>Genome Biology</em>. 2020;21:227. <a href="https://doi.org/10.1186/s13059-020-02136-7">doi:10.1186/s13059-020-02136-7</a></li>
+
+    <li>Bhuva DD, Tan CW, Salim A, et al. Library size confounds biology in spatial transcriptomics data. <em>Genome Biology</em>. 2024;25:99. <a href="https://doi.org/10.1186/s13059-024-03241-7">doi:10.1186/s13059-024-03241-7</a></li>
+
+    <li>Salim A, Bhuva DD, Chen C, et al. SpaNorm: spatially-aware normalization for spatial transcriptomics data. <em>Genome Biology</em>. 2025;26:109. <a href="https://doi.org/10.1186/s13059-025-03565-y">doi:10.1186/s13059-025-03565-y</a></li>
+
+    <li>Yuan Z, Zhao F, Lin S, et al. Benchmarking spatial clustering methods with spatially resolved transcriptomics data. <em>Nature Methods</em>. 2024;21:712–722. <a href="https://doi.org/10.1038/s41592-024-02215-8">doi:10.1038/s41592-024-02215-8</a></li>
+
+    <li>Lun ATL, McCarthy DJ, Marioni JC. A step-by-step workflow for low-level analysis of single-cell RNA-seq data with Bioconductor. <em>F1000Research</em>. 2016;5:2122. <a href="https://doi.org/10.12688/f1000research.9501.2">doi:10.12688/f1000research.9501.2</a></li>
+
+    <li>Korsunsky I, Millard N, Fan J, et al. Fast, sensitive and accurate integration of single-cell data with Harmony. <em>Nature Methods</em>. 2019;16(12):1289–1296. <a href="https://doi.org/10.1038/s41592-019-0619-0">doi:10.1038/s41592-019-0619-0</a></li>
+
+    <li>Zhao E, Stone MR, Ren X, et al. Spatial transcriptomics at subspot resolution with BayesSpace. <em>Nature Biotechnology</em>. 2021;39(11):1375–1384. <a href="https://doi.org/10.1038/s41587-021-00935-2">doi:10.1038/s41587-021-00935-2</a></li>
+
+    <li>Singhal V, Chou N, Lee J, et al. BANKSY unifies cell typing and tissue domain segmentation for scalable spatial omics data analysis. <em>Nature Genetics</em>. 2024;56:431–441. <a href="https://doi.org/10.1038/s41588-024-01664-3">doi:10.1038/s41588-024-01664-3</a></li>
+
+    <li>Maynard KR, Collado-Torres L, Weber LM, et al. Transcriptome-scale spatial gene expression in the human dorsolateral prefrontal cortex. <em>Nature Neuroscience</em>. 2021;24:425–436. <a href="https://doi.org/10.1038/s41593-020-00787-0">doi:10.1038/s41593-020-00787-0</a></li>
+
+    <li>Korotkevich G, Sukhov V, Budin N, et al. Fast gene set enrichment analysis. <em>bioRxiv</em>. 2021. <a href="https://doi.org/10.1101/060012">doi:10.1101/060012</a></li>
+
+    <li>Liberzon A, Birger C, Thorvaldsdóttir H, et al. The Molecular Signatures Database hallmark gene set collection. <em>Cell Systems</em>. 2015;1(6):417–425. <a href="https://doi.org/10.1016/j.cels.2015.12.004">doi:10.1016/j.cels.2015.12.004</a></li>
+
+    <li>Kuleshov MV, Jones MR, Rouillard AD, et al. Enrichr: a comprehensive gene set enrichment analysis web server 2016 update. <em>Nucleic Acids Research</em>. 2016;44(W1):W90–W97. <a href="https://doi.org/10.1093/nar/gkw377">doi:10.1093/nar/gkw377</a></li>
+
+    <li>Landau WM. The targets R package: a dynamic Make-like function-oriented pipeline toolkit for reproducibility and high-performance computing. <em>Journal of Open Source Software</em>. 2021;6(57):2959. <a href="https://doi.org/10.21105/joss.02959">doi:10.21105/joss.02959</a></li>
+  </ol>
+
+  <h2>Acknowledgements</h2>
+  <p>Thank you to Dr Marie Trussart, Prof Tony Papenfuss and the Papenfuss Lab at WEHI, and to Dr Alice Johnstone at RMIT. Computation was performed on WEHI's Milton high performance computing cluster.</p>
+
+  <p class="note">Reference order and numbering to be matched to the poster.</p>
+
+</main>
+</body>
+</html>
