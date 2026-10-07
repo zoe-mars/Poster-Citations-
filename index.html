@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Spatial pipeline poster references WIP not finsihed or corrected</title>
+<title>Spatial pipeline poster references</title>
 <style>
   :root {
     --bg: #fbfbf9;
@@ -13,7 +13,7 @@
     --rule: #d9dcd8;
   }
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]) {
       --bg: #15191d;
       --text: #e6e8e6;
       --muted: #a3acb4;
@@ -90,14 +90,14 @@
   <p class="byline">Zoe Marsland · RMIT University · Papenfuss Lab, WEHI · 2026</p>
 
   <h2>Poster</h2>
-  <!-- Replace the placeholder with: <img class="poster" src="poster.png" alt="Poster"> -->
-  <div class="poster-placeholder">Poster image to be added</div>
+  <a href="poster.pdf"><img class="poster" src="poster.jpg" alt="Poster: Generalising a spatial transcriptomics analysis into a reusable R pipeline"></a>
+  <p class="note">Tap the poster to open the full resolution PDF.</p>
 
   <h2>References</h2>
   <ol class="refs">
     <li>Ståhl PL, Salmén F, Vickovic S, et al. Visualization and analysis of gene expression in tissue sections by spatial transcriptomics. <em>Science</em>. 2016;353(6294):78–82. <a href="https://doi.org/10.1126/science.aaf2403">doi:10.1126/science.aaf2403</a></li>
 
-    <li>Liu L, Chen A, Li Y, Mulder J, Heyn H, Xu X. Spatiotemporal omics for biology and medicine. <em>Cell</em>. 2024;187(17):4488–4519.</li>
+    <li>Liu L, Chen A, Li Y, Mulder J, Heyn H, Xu X. Spatiotemporal omics for biology and medicine. <em>Cell</em>. 2024;187(17):4488–4519. <a href="https://doi.org/10.1016/j.cell.2024.07.040">doi:10.1016/j.cell.2024.07.040</a></li>
 
     <li>Righelli D, Weber LM, Crowell HL, et al. SpatialExperiment: infrastructure for spatially-resolved transcriptomics data in R using Bioconductor. <em>Bioinformatics</em>. 2022;38(11):3128–3131. <a href="https://doi.org/10.1093/bioinformatics/btac299">doi:10.1093/bioinformatics/btac299</a></li>
 
